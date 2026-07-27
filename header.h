@@ -22,7 +22,18 @@ void ParcourPostInfixe(Noeud *racine);
 
 Noeud *Recherche(Noeud *racine, int valeur);
 
+Noeud *minimum(Noeud * racine);
+
+Noeud *maximum(Noeud *racine);
+
+int CompterNoeud(Noeud *racine);
+
+int CompterFeuilles(Noeud *racine);
+
+int CompterHauteur(Noeud *racine);
+
 Noeud *SupprimerNoeud(Noeud *racine, int valeur);
 
+void LibererMemoire(Noeud *racine);
 
 # endif
